@@ -793,6 +793,12 @@ h1, h2, h3, h4, h5, h6 {
         width: 200px;
         text-align: center;
     }
+
+    /* Fix background rendering issues on mobile browsers */
+    .hero {
+        background-attachment: scroll;
+        background-position: center center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -850,3 +856,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 3rem;
 }
+
+
+
+
