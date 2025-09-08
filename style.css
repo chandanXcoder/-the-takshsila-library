@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(156, 200, 230, 0.8), rgba(41, 128, 185, 0.8));
+    /* background: linear-gradient(135deg, rgba(156, 200, 230, 0.8), rgba(41, 128, 185, 0.8)); */
 }
 
 .hero-content {
