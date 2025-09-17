@@ -184,10 +184,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
      height: 100vh; 
-    
     background: #1a2126;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-   url('background2.jpeg'); 
+   url('background2.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
