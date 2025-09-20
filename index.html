@@ -193,7 +193,38 @@
         </div>
     </section>
 
-    <section class="archivement">
+    <!-- Academic Achievements Section -->
+<section id="achievements" class="container">
+    <h2>Academic Achievements</h2>
+  
+    <div class="controls">
+      <input id="search" placeholder="Search by name..." aria-label="Search achievements">
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="2024">2024</button>
+        <button data-filter="2023">2023</button>
+        <button data-filter="2022">2022</button>
+      </div>
+    </div>
+  
+    <div id="gallery" class="grid">
+      <!-- Cards will be injected by JS -->
+    </div>
+  </section>
+  
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="modalClose" class="close" aria-label="Close">&times;</button>
+      <img id="modalImg" alt="">
+      <div id="modalCaption"></div>
+      <div class="modal-nav">
+        <button id="prev" aria-label="Previous">◀</button>
+        <button id="next" aria-label="Next">▶</button>
+      </div>
+    </div>
+  </div>
+  
 
 
 
