@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
      height: 100vh; 
     background: #1a2126;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-   url('background1.jpg'); 
+   url('wmremove-transformed.jpeg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1018,5 +1018,49 @@ h1, h2, h3, h4, h5, h6 {
     #achievements input#search {
       width: 100%;
     }
+  }
+  
+
+
+
+  .social-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    width: 40px;
+    height: 40px;
+    background: #444; /* default background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Instagram */
+  .social-links a:nth-child(1) {
+    background: #E1306C;
+  }
+  
+  /* WhatsApp */
+  .social-links a:nth-child(2) {
+    background: #25D366;
+  }
+  
+  /* Phone */
+  .social-links a:nth-child(3) {
+    background: #0A66C2;
+  }
+  
+  /* Hover effect */
+  .social-links a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
   

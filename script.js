@@ -375,7 +375,10 @@ const data = [
     {id:2,name:"Sana Khan", year:2023, img:"https://picsum.photos/seed/a2/600/400", desc:"Science fair winner"},
     {id:3,name:"Arun R", year:2022, img:"https://picsum.photos/seed/a3/600/400", desc:"Math Olympiad medal"},
     {id:4,name:"Neha Verma", year:2024, img:"https://picsum.photos/seed/a4/600/400", desc:"National Quiz finalist"},
-    {id:5,name:"Ravi Patel", year:2023, img:"https://picsum.photos/seed/a5/600/400", desc:"Essay competition winner"}
+    {id:5,name:"Ravi Patel", year:2023, img:"https://picsum.photos/seed/a5/600/400", desc:"Essay competition winner"},
+    {id:6,name:"Arun R", year:2022, img:"Sona lal.jpg", desc:"Math Olympiad medal"},
+    {id:7,name:"Neha Verma", year:2024, img:"https://picsum.photos/seed/a4/600/400", desc:"National Quiz finalist"},
+    {id:8,name:"Ravi Patel", year:2023, img:"https://picsum.photos/seed/a5/600/400", desc:"Essay competition winner"}
   ];
   
   const gallery = document.getElementById('gallery');
